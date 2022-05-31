@@ -1,6 +1,6 @@
 # Auto-deref
 
-This implements a syntax sugar for the Nim programming language. With this module imported, `ptr` and `ref` variables will be automatically dereferenced. What it does is very similar to the effect of `{.experimental: "implicitDeref".}`.
+This implements a syntax sugar for the Nim programming language. With this module imported, `ptr` and `ref` variables will be dereferenced automatically. What it does is very similar to the effect of `{.experimental: "implicitDeref".}`.
 
 ## Example
 
