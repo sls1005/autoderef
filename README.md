@@ -20,4 +20,4 @@ echo f.get()
 
 ## Note
 
-* Please ensure that the variable to be auto-dereferenced is not `nil`.
+* Please ensure that the variable to be auto-dereferenced does not point to `nil`.
