@@ -15,7 +15,7 @@ proc get(self: var Foo): int =
   return self.a
 
 var f: ref Foo = new Foo
-echo f.get()
+echo f.get() #instead of (f[]).get()
 ```
 
 ## Note
